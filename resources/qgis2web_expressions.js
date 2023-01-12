@@ -763,3 +763,17 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_PSE_5rule0_eval_expression(context) {
+    // "voltage" = 110000
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('voltage')  == 110000);
+    } else {
+        return (feature.get('voltage')  == 110000);
+    }
+}
