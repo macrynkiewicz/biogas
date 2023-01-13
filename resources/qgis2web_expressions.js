@@ -766,7 +766,7 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_PSE_5rule0_eval_expression(context) {
+function exp_Sieenergetyczna110kV_6rule0_eval_expression(context) {
     // "voltage" = 110000
 
     var feature = context.feature;
